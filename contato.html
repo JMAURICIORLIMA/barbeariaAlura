@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset=UTF-8">
+    <title>Contato - Barbearia Alura</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="/barbearia_alura_v2/styleProdutos.css" />
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <h1><img src="/barbearia_alura_v2/imagens/logo.png" alt="logo" /></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="/barbearia_alura_v2/barbearia_alura/index.html">Home</a></li>
+                    <li><a href="/barbearia_alura_v2/produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="">
+
+            <label for="nomeSobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomeSobrenome">
+
+            <label for="email">Email</label>
+            <input type="text" id="email">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem"></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radioEmail">Email</label>
+                <input type="radio" name="contato" value="email" id="radioEmail">
+
+                <label for="radioTelefone">Telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radioTelefone">
+
+                <label for="radioWhatsapp">WhatsApp</label>
+                <input type="radio" name="contato" value="whatsapp" id="radioWhatsapp">
+            </div>
+
+            <label for="checkbox"> <input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar formulário">
+
+        </form>
+    </main>
+
+    <footer>
+        <img src="/barbearia_alura_v2/imagens/logo-branco.png" alt="logo-branco">
+        <div class="copyright">
+            <p>&copy; Copyright Alura</p>
+            <p>By<a href="https://github.com/JMAURICIORLIMA?tab=repositories">jmauriciorlima</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
