@@ -33,6 +33,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.principal {
+    display: flex;
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -44,7 +48,6 @@ nav a:hover {
     text-align: center;
     width: 30%;
     vertical-align: top;
-    /* background: #cccccc; */
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
@@ -82,7 +85,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("./imagens/bg.jpg");
+    background: url("../imagens/bg.jpg");
     padding: 40px 0px;
 }
 
@@ -91,6 +94,3 @@ footer {
     font-size: 15px;
     margin: 20px;
 }
-
-
-

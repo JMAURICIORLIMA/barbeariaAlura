@@ -4,15 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Barbearia Alura</title>
-    <link rel="stylesheet" href="./styleHome.css" />
+    <link rel="stylesheet" href="./arquivo_reset_css/reset.css" />
+    <link rel="stylesheet" href="./produtos/styleProdutos.css"/>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <header>
-        <h1 class="tituloPrincipal">Barbearia Alura</h1>
-    </header>
+        <div class="cabecalho">
+            <h1><img src="./imagens/logo.png" alt="logo" /></h1>
 
-    <img id="banner" src="./imagens/banner.jpg" />
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./produtos/produtos.html">Produtos</a></li>
+                    <li><a href="./contato/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <div class="principal">
         <h2 class="tituloCentralizado">Sobre a Barbearia Alura</h2>
@@ -26,9 +36,7 @@
         </p>
 
         <p id="missao">
-            <em>Nossa missão é:
-                <strong>"Proporcionar auto-estima e qualidade de vida aos
-                    clientes"</strong>.</em>
+            <em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em>
         </p>
 
         <p>
@@ -51,6 +59,13 @@
 
         <img src="./imagens/beneficios.jpg" class="imgBeneficios" />
     </div>
+    <footer>
+        <img src="./imagens/logo-branco.png" alt="logo-branco">
+        <div class="copyright">
+            <p>&copy; Copyright Alura</p>
+            <p>By<a href="https://github.com/JMAURICIORLIMA?tab=repositories">jmauriciorlima</a></p>
+        </div>
+    </footer>
 </body>
 
 </html>
