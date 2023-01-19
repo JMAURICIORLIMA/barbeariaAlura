@@ -177,9 +177,32 @@ footer {
 
 .imgBeneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imgBeneficios:hover {
+    opacity: 0.3;
 }
 
 .video {
     width: 560px;
     margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+    .cabecalho, .principal, .conteudoBeneficios, .mapaConteudo, .video {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    .listaBeneficios, .imgBeneficios {
+        width: 100%;
+    }
+
 }
